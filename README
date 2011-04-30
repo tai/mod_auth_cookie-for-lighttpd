@@ -1,5 +1,15 @@
 mod_auth_cookie for lighttpd
 
+=== NOTE ===
+This module is now renamed to "mod_auth_ticket" and development
+page has moved to
+
+  https://github.com/tai/mod-auth-ticket-for-lighttpd
+
+You can upgrade to mod_auth_ticket just by renaming directive in
+lighttpd.conf from "auth-cookie" to "auth-ticket".
+
+
 === What is it? ===
 
 This is a lighttpd module that
